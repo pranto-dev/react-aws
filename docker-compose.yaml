@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  react-aws:
+    image: react-aws 
+    container_name: react-aws-con
+    build: .
+    ports:
+      - "4000:80"
